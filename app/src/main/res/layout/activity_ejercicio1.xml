@@ -29,6 +29,16 @@
                 />
 
             <EditText
+                android:id="@+id/edtDistancia"
+                style="@style/modifiedEditText"
+                android:hint="Distancia a recorrer(en Kilometros)"
+                android:gravity="center"
+                android:textColorHint="@color/primaryTextColor"
+                android:inputType="number"
+                android:layout_margin="20dp"
+                android:maxLines="1" />
+
+            <EditText
                 android:id="@+id/edtPartida"
                 style="@style/modifiedEditText"
                 android:hint="Fecha de partida"
@@ -50,17 +60,7 @@
                 android:layout_margin="20dp"
                 android:focusable="false"
                 android:maxLines="1" />
-            <EditText
-                android:id="@+id/edtDistancia"
-                style="@style/modifiedEditText"
-                android:hint="Distancia a recorrer(en Kilometros)"
-                android:gravity="center"
-                android:textColorHint="@color/primaryTextColor"
-                android:inputType="text"
-                android:clickable="true"
-                android:layout_margin="20dp"
-                android:focusable="false"
-                android:maxLines="1" />
+
             <Button
                 android:id="@+id/btn1"
                 style="@style/Button"
