@@ -10,3 +10,5 @@ de acuerdo con evitar el mal funcionamiento de la misma para esto las entradas s
 presentan (teclado numérico y calendario para escoger fechas). En el primer problema de acuerdo con que el usuario consulte un viaje,
 y este sea superior a 1000km además de durar mas de 7 días la aplicación aplicara un 30% de descuento, de lo contrario se cobrara el precio base
 de $35 por cada kilómetro. Las consultas se darán en un toast el cual es la ventana emergente de Android.
+
+El apk para instalar se llama app-debug.apk y se encuentra en la raíz del repositorio.
