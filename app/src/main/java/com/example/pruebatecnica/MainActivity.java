@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btn1 = findViewById(R.id.btn1);
-        btn2 = findViewById(R.id.btn2);
+        //btn2 = findViewById(R.id.btn2);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -23,13 +23,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        btn2.setOnClickListener(new View.OnClickListener() {
+       /* btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*Intent intent =new Intent(MainActivity.this,ejercicio2.class);
-                startActivity(intent);*/
+                *//*Intent intent =new Intent(MainActivity.this,ejercicio2.class);
+                startActivity(intent);*//*
             }
-        });
+        });*/
     }
 
 }
