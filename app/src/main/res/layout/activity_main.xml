@@ -49,7 +49,7 @@
             android:layout_marginBottom="30dp"
             android:text="Ejercicio 1" />
 
-        <Button
+        <!--<Button
             android:id="@+id/btn2"
             style="@style/Button"
             android:layout_width="wrap_content"
@@ -57,7 +57,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="30dp"
 
-            android:text="Ejercicio 1" />>
+            android:text="Ejercicio 2" />>-->
 
     </LinearLayout>
 </LinearLayout>

@@ -35,7 +35,7 @@
                 android:gravity="center"
                 android:textColorHint="@color/primaryTextColor"
                 android:inputType="number"
-                android:layout_margin="20dp"
+                android:layout_margin="10dp"
                 android:maxLines="1" />
 
             <EditText
@@ -46,7 +46,7 @@
                 android:textColorHint="@color/primaryTextColor"
                 android:inputType="date"
                 android:clickable="true"
-                android:layout_margin="20dp"
+                android:layout_margin="10dp"
                 android:focusable="false"
                 android:maxLines="1" />
             <EditText
@@ -57,7 +57,7 @@
                 android:textColorHint="@color/primaryTextColor"
                 android:inputType="date"
                 android:clickable="true"
-                android:layout_margin="20dp"
+                android:layout_margin="10dp"
                 android:focusable="false"
                 android:maxLines="1" />
 
@@ -67,7 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:text="Calcular valor del tiquete" />
 
